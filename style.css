@@ -1,31 +1,32 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
   text-align: center;
-  padding: 20px;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #4CAF50;
   color: white;
   padding: 20px;
-  margin-bottom: 20px;
 }
 
-section {
-  margin-bottom: 30px;
+#gameCanvas {
+  background-color: #87ceeb;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #000;
+}
+
+.hidden {
+  display: none;
+}
+
+#quiz {
   background-color: #e6f7ff;
   padding: 20px;
   border-radius: 10px;
-}
-
-input {
-  padding: 5px;
-  font-size: 16px;
-}
-
-button {
-  padding: 5px 10px;
-  font-size: 16px;
-  cursor: pointer;
+  width: 300px;
+  margin: 20px auto;
 }
